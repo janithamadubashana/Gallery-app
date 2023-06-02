@@ -1,0 +1,20 @@
+{
+  "name": "public Gallery App",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "rm -rf dist && parcel build"
+  },
+  "author": "Direct Entry Program",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.1",
+    "parcel": "^2.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "jquery": "^3.7.0",
+    "normalize.css": "^8.0.1"
+  }
+}
